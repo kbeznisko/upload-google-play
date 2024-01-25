@@ -109,7 +109,7 @@ async function uploadToPlayStore(options: EditOptions, releaseFiles: string[]): 
             auth: options.auth,
             editId: appEditId,
             packageName: options.applicationId,
-            changesNotSentForReview: options.changesNotSentForReview
+            // changesNotSentForReview: options.changesNotSentForReview
         });
 
         // Simple check to see whether commit was successful
